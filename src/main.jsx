@@ -5,6 +5,7 @@ import { UserContextProvider } from "./context/UserContext.jsx";
 import { CourseContextProvider } from "./context/CourseContext.jsx";
 
 export const server = process.env.REACT_APP_SERVER_URL;
+console.log("Server URL:", server);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
